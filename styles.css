@@ -1,99 +1,202 @@
-/* General Styles */
+/* ============================= */
+/* General Styles for Entire Page */
+/* ============================= */
+
 body {
+    /* Remove default browser margin */
     margin: 0;
+
+    /* Set the default font stack for the entire page */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Dark background color for tech aesthetic */
     background-color: #0a0a0f;
+
+    /* Light text color for readability on dark background */
     color: #e0e0e0;
+
+    /* Set line height for better readability */
     line-height: 1.6;
 }
 
-/* Header */
+/* ============================= */
+/* Header Styles */
+/* ============================= */
+
 header {
+    /* Dark background for header to match site theme */
     background-color: #111;
+
+    /* Padding inside header: top/bottom 1rem, left/right 2rem */
     padding: 1rem 2rem;
+
+    /* Center all header text and elements */
     text-align: center;
+
+    /* Bottom border to create a glowing tech line effect */
     border-bottom: 2px solid #00bfff;
 }
 
 header h1 {
+    /* Remove default margin on h1 */
     margin: 0;
+
+    /* Bright cyan color to match tech theme */
     color: #00bfff;
 }
 
-/* Navigation */
+/* ============================= */
+/* Navigation Styles */
+/* ============================= */
+
+/* Remove default bullets and padding from the list */
 nav ul {
     list-style: none;
     padding: 0;
 }
 
+/* Display list items inline for horizontal menu */
 nav ul li {
     display: inline-block;
+
+    /* Horizontal spacing between menu items */
     margin: 0 15px;
 }
 
+/* Style the links inside navigation */
 nav a {
+    /* Light text color for readability */
     color: #e0e0e0;
+
+    /* Remove underline from links */
     text-decoration: none;
+
+    /* Bold text for emphasis */
     font-weight: bold;
 }
 
+/* Hover effect and active page link styling */
 nav a:hover,
 nav a.active {
+    /* Change color on hover or active link to cyan */
     color: #00bfff;
 }
 
-/* Hero Section */
+/* ============================= */
+/* Hero Section Styles */
+/* ============================= */
+
 .hero {
+    /* Center all text in hero section */
     text-align: center;
+
+    /* Add padding around content */
     padding: 2rem;
 }
 
 .hero img {
+    /* Make image responsive: 80% of container width */
     width: 80%;
+
+    /* Limit maximum width to 600px */
     max-width: 600px;
+
+    /* Add space above the image */
     margin-top: 1rem;
+
+    /* Rounded corners for modern look */
     border-radius: 12px;
+
+    /* Glow/shadow effect for tech aesthetic */
     box-shadow: 0 0 10px #00bfff;
 }
 
-/* Content Sections */
+/* ============================= */
+/* Content Section Styles */
+/* ============================= */
+
 .content {
+    /* Add padding inside section */
     padding: 2rem;
+
+    /* Limit content width for readability */
     max-width: 1000px;
+
+    /* Center section horizontally */
     margin: auto;
 }
 
-/* Grid Cards */
+/* ============================= */
+/* Grid Layout for Cards */
+/* ============================= */
+
 .grid {
+    /* Use flexbox for flexible layout */
     display: flex;
+
+    /* Space between cards */
     gap: 1.5rem;
+
+    /* Allow cards to wrap to next line on smaller screens */
     flex-wrap: wrap;
+
+    /* Center the cards horizontally */
     justify-content: center;
 }
 
+/* Individual Card Styles */
 .card {
+    /* Dark background to match site theme */
     background-color: #1a1a1f;
+
+    /* Padding inside each card */
     padding: 1rem;
+
+    /* Rounded corners for modern look */
     border-radius: 10px;
+
+    /* Fixed width for consistency */
     width: 300px;
+
+    /* Soft shadow to give depth */
     box-shadow: 0 0 10px rgba(0, 191, 255, 0.3);
+
+    /* Smooth transition for hover effect */
     transition: transform 0.2s;
 }
 
+/* Hover effect for card */
 .card:hover {
+    /* Slightly lift the card on hover for interactivity */
     transform: translateY(-5px);
 }
 
+/* Card images styling */
 .card img {
+    /* Make image take full width of card */
     width: 100%;
+
+    /* Rounded corners slightly smaller than card */
     border-radius: 8px;
 }
 
-/* Footer */
+/* ============================= */
+/* Footer Styles */
+/* ============================= */
+
 footer {
+    /* Dark background for footer to match header */
     background-color: #111;
+
+    /* Center text inside footer */
     text-align: center;
+
+    /* Add padding inside footer */
     padding: 1rem;
+
+    /* Top border glow effect to match header */
     border-top: 2px solid #00bfff;
+
+    /* Add space above footer to separate from content */
     margin-top: 2rem;
 }
