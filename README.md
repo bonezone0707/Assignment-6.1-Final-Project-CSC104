@@ -1,6 +1,3 @@
-AI Tech Hub Website 50% Progress Checkpoint - README
-
-
 Project Description:
 -------------------
 AI Tech Hub is an educational and informational website about artificial intelligence (AI). 
