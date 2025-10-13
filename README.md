@@ -1,7 +1,3 @@
-==============================
-AI Tech Hub Website - README
-==============================
-
 Project Description:
 -------------------
 AI Tech Hub is an educational and informational website about artificial intelligence (AI). 
