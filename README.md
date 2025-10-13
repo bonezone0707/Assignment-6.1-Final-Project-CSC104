@@ -1,6 +1,5 @@
-==============================
 AI Tech Hub Website 50% Progress Checkpoint - README
-==============================
+
 
 Project Description:
 -------------------
