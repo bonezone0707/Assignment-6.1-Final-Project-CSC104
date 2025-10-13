@@ -1,44 +1,140 @@
 <!DOCTYPE html>
+<!-- 
+    Declares the document type and version of HTML.
+    In this case, HTML5. 
+    Ensures the browser knows how to render the page correctly.
+-->
 <html lang="en">
+<!-- 
+    <html> is the root element of the HTML document.
+    'lang="en"' tells search engines and assistive technologies that the content is in English.
+-->
+
 <head>
+    <!--
+        The <head> element contains meta-information about the page
+        that isn't displayed directly on the webpage.
+    -->
     <meta charset="UTF-8">
+    <!--
+        Sets the character encoding for the document to UTF-8.
+        UTF-8 supports almost all characters in the world, ensuring text displays correctly.
+    -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        Ensures the page is responsive on mobile devices.
+        'width=device-width' sets the width of the page to the screen width of the device.
+        'initial-scale=1.0' sets the initial zoom level when the page is first loaded.
+    -->
+
     <title>About - AI Tech Hub</title>
+    <!--
+        Sets the title of the webpage that appears in the browser tab.
+    -->
+
     <link rel="stylesheet" href="styles.css">
+    <!--
+        Links an external CSS file to style the HTML content.
+        'rel="stylesheet"' specifies the relationship as a style sheet.
+        'href="styles.css"' points to the file location of the CSS file.
+    -->
 </head>
+
 <body>
+    <!--
+        The <body> element contains all the content that is displayed to the user on the webpage.
+    -->
+
     <header>
+        <!--
+            The <header> element usually contains the website's main heading and navigation.
+            It's typically at the top of the page.
+        -->
         <h1>AI Tech Hub</h1>
+        <!--
+            Main heading of the page (H1).
+            Only one H1 per page is recommended for accessibility and SEO.
+        -->
+
         <nav>
+            <!--
+                <nav> defines a navigation section.
+                Typically contains links to other pages of the website.
+            -->
             <ul>
+                <!--
+                    Unordered list (<ul>) to hold the navigation items.
+                -->
                 <li><a href="index.html">Home</a></li>
+                <!--
+                    <li> is a list item.
+                    <a href="index.html"> creates a clickable link to the home page.
+                -->
                 <li><a href="about.html" class="active">About</a></li>
+                <!--
+                    Link to the current page, marked with class="active".
+                    This class can be used in CSS to highlight the active page.
+                -->
                 <li><a href="#">News</a></li>
+                <!--
+                    Placeholder link for the News page (# means no actual link yet).
+                -->
                 <li><a href="#">Contact</a></li>
+                <!--
+                    Placeholder link for the Contact page.
+                -->
             </ul>
         </nav>
     </header>
 
     <section class="content">
+        <!--
+            <section> defines a thematic grouping of content.
+            'class="content"' allows targeting this section with CSS.
+        -->
         <h2>About Artificial Intelligence</h2>
+        <!--
+            H2 heading for this section. H2 is semantically below H1.
+        -->
+
         <p>
             Artificial intelligence (AI) refers to the simulation of human intelligence in machines
             programmed to think and learn. From virtual assistants to self-driving cars, AI
             technologies are reshaping industries and human experiences.
         </p>
+        <!--
+            Paragraph introducing AI. <p> tags define a block of text.
+        -->
+
         <p>
             At AI Tech Hub, we believe in exploring both the potential and the responsibility that
             comes with developing advanced AI. Our mission is to provide accurate, balanced, and
             engaging insights into how AI is shaping the modern world.
         </p>
+        <!--
+            Paragraph describing the mission and philosophy of AI Tech Hub.
+        -->
+
         <p>
             Future sections of this site will feature articles, news updates, and interactive
             demonstrations to help users experience the evolution of AI firsthand.
         </p>
+        <!--
+            Paragraph giving a preview of upcoming content.
+        -->
     </section>
 
     <footer>
+        <!--
+            <footer> defines the footer section of the page.
+            Typically contains copyright, contact info, or legal links.
+        -->
         <p>&copy; 2025 AI Tech Hub. All rights reserved.</p>
+        <!--
+            &copy; is the HTML entity for the copyright symbol.
+            "All rights reserved" is standard legal wording for website copyright.
+        -->
     </footer>
 </body>
 </html>
