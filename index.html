@@ -1,51 +1,172 @@
 <!DOCTYPE html>
+<!-- 
+    Declares the document type as HTML5.
+    Ensures the browser renders the page using HTML5 standards.
+-->
 <html lang="en">
+<!-- 
+    Root element of the HTML document.
+    'lang="en"' indicates the language is English for accessibility and SEO purposes.
+-->
+
 <head>
+    <!--
+        The <head> section contains meta-information about the page,
+        like character encoding, title, and linked files.
+    -->
+
     <meta charset="UTF-8">
+    <!--
+        Sets character encoding to UTF-8.
+        Supports all characters and symbols in most languages.
+    -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        Makes the webpage responsive for mobile devices.
+        'width=device-width' sets the viewport width to match the device width.
+        'initial-scale=1.0' sets the initial zoom level when the page loads.
+    -->
+
     <title>AI Tech Hub</title>
+    <!--
+        Title of the webpage that appears in browser tabs or search engine results.
+    -->
+
     <link rel="stylesheet" href="styles.css">
+    <!--
+        Links the external CSS stylesheet to style the HTML content.
+        'rel="stylesheet"' specifies the relationship as a stylesheet.
+        'href="styles.css"' is the path to the CSS file.
+    -->
 </head>
+
 <body>
+    <!--
+        <body> contains all visible content of the webpage.
+        Everything inside <body> is rendered in the browser window.
+    -->
+
     <!-- Navigation Bar -->
     <header>
+        <!--
+            <header> typically contains the main page heading and navigation links.
+        -->
         <h1>AI Tech Hub</h1>
+        <!--
+            Main heading (H1) of the site.
+            Only one H1 per page is recommended for SEO and accessibility.
+        -->
+
         <nav>
+            <!--
+                <nav> defines a navigation section containing links.
+                Helps search engines and screen readers identify page navigation.
+            -->
             <ul>
+                <!--
+                    Unordered list (<ul>) to organize navigation links as list items (<li>).
+                -->
                 <li><a href="index.html">Home</a></li>
+                <!--
+                    List item linking to the home page.
+                    <a> defines a clickable hyperlink.
+                -->
                 <li><a href="about.html">About</a></li>
+                <!--
+                    List item linking to the about page.
+                -->
                 <li><a href="#">News</a></li>
+                <!--
+                    Placeholder link (#) for News page (not functional yet).
+                -->
                 <li><a href="#">Contact</a></li>
+                <!--
+                    Placeholder link (#) for Contact page (not functional yet).
+                -->
             </ul>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
+        <!--
+            <section> groups related content together.
+            'class="hero"' allows styling with CSS for a visually prominent area.
+            Hero sections are often the first thing visitors see on a website.
+        -->
         <h2>Welcome to the Future of Artificial Intelligence</h2>
+        <!--
+            H2 heading introduces the hero section.
+        -->
         <p>Discover how AI is transforming industries, innovation, and everyday life.</p>
+        <!--
+            Paragraph giving a brief introduction to AI and the website's purpose.
+        -->
         <img src="images/ai-circuit.jpg" alt="AI circuit board graphic">
+        <!--
+            Image representing AI technology.
+            'src' specifies the path to the image.
+            'alt' provides alternative text for accessibility and SEO.
+        -->
     </section>
 
     <!-- About Section -->
     <section class="content">
+        <!--
+            Section providing information about the website.
+            'class="content"' can be targeted in CSS for consistent styling.
+        -->
         <h2>About AI Tech Hub</h2>
+        <!--
+            H2 heading for the About section.
+        -->
         <p>
             AI Tech Hub is your go-to source for learning about artificial intelligence and its
             influence across technology, healthcare, business, and more. Our goal is to make complex
             AI concepts accessible and engaging for everyone.
         </p>
+        <!--
+            Paragraph describing the website's mission and purpose.
+        -->
     </section>
 
     <!-- Applications Section -->
     <section class="content">
+        <!--
+            Section describing applications of AI.
+            Using the same 'content' class for consistent spacing and styling.
+        -->
         <h2>Applications of AI</h2>
+        <!--
+            H2 heading for the Applications section.
+        -->
+
         <div class="grid">
+            <!--
+                <div> used as a container for layout purposes.
+                'class="grid"' indicates this container will use a grid layout in CSS.
+            -->
+
             <div class="card">
+                <!--
+                    Individual card representing one application of AI.
+                    'card' class can be styled with border, shadow, padding, etc.
+                -->
                 <img src="images/robot-silhouette.jpg" alt="AI robot image">
+                <!--
+                    Image representing Automation & Robotics.
+                -->
                 <h3>Automation & Robotics</h3>
+                <!--
+                    H3 heading for the card title.
+                -->
                 <p>Learn how robotics and automation are revolutionizing manufacturing and service industries.</p>
+                <!--
+                    Description of the AI application.
+                -->
             </div>
+
             <div class="card">
                 <img src="images/ai-brain.jpg" alt="AI brain visualization">
                 <h3>Machine Learning</h3>
@@ -56,7 +177,13 @@
 
     <!-- Footer -->
     <footer>
+        <!--
+            Footer section usually contains copyright or legal information.
+        -->
         <p>&copy; 2025 AI Tech Hub. All rights reserved.</p>
+        <!--
+            &copy; is the HTML entity for the copyright symbol.
+        -->
     </footer>
 </body>
 </html>
