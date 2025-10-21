@@ -23,4 +23,4 @@ Features:
 Image Sources (free-use Unsplash):
 - https://images.unsplash.com/photo-1581091226825-a6a2a5aee158
 - https://images.unsplash.com/photo-1504384308090-c894fdcc538d
-- https://images.unsplash.com/photo-1581091870627-3ca5dfd12c49
+- (https://eco-cdn.iqpc.com/eco/images/channel_content/images/transforming_healthcare_with_ai9ioi87Snj7ZgNpbaUo3q30s91a6yUj2wqpaIUDPw.webp)
