@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<!-- The DOCTYPE declaration defines this as an HTML5 document -->
 <html lang="en">
 <head>
-    <!-- Character encoding ensures correct text display -->
+    <!-- 
+        Meta Information
+        ----------------
+        This page serves as the homepage for the "AI Tech Hub" website.
+        It introduces users to AI innovations and links to About and Contact pages.
+        Includes meta tags for SEO and accessibility.
+    -->
     <meta charset="UTF-8">
-    <!-- Makes the site responsive on all screen sizes -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Page title shown in browser tab -->
+    <meta name="description" content="AI Tech Hub - Explore Artificial Intelligence, its innovations, and future technologies.">
+    <meta name="keywords" content="AI, Artificial Intelligence, Robotics, Machine Learning, Technology, Innovation">
+    <meta name="author" content="Steven DeBuono">
     <title>AI Tech Hub | Home</title>
-    <!-- External CSS link -->
+
+    <!-- Link to external CSS file for consistent design -->
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <!-- HEADER SECTION -->
+    <!-- Header and Navigation Bar -->
     <header>
-        <!-- Main site title -->
         <h1>AI Tech Hub</h1>
-
-        <!-- Navigation menu -->
         <nav>
             <ul>
-                <!-- Navigation links (active page highlighted) -->
+                <!-- Navigation links remain consistent across pages -->
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -29,35 +32,30 @@
         </nav>
     </header>
 
-    <!-- HERO SECTION (Intro) -->
+    <!-- Hero Section: Brief introduction and call-to-action -->
     <section class="hero">
         <h2>Exploring the Future of Artificial Intelligence</h2>
         <p>Welcome to AI Tech Hub — your source for insights, innovation, and the latest breakthroughs in AI development.</p>
-        <!-- Button leading to About page -->
         <a href="about.html" class="btn">Learn More</a>
     </section>
 
-    <!-- CONTENT SECTION (Featured Topics) -->
+    <!-- Main Content Section -->
     <section class="content">
         <h2>Latest Innovations</h2>
-
-        <!-- Card grid showing 3 major AI topics -->
         <div class="card-grid">
-            <!-- Card 1: Robotics -->
+            <!-- Each card displays a unique AI topic with an image and short description -->
             <div class="card">
                 <img src="images/ai_robot.jpg" alt="AI Robotics">
                 <h3>AI Robotics</h3>
                 <p>Discover how robotics and machine learning are redefining automation.</p>
             </div>
 
-            <!-- Card 2: Neural Networks -->
             <div class="card">
                 <img src="images/neural_network.jpg" alt="Neural Networks">
                 <h3>Neural Networks</h3>
                 <p>Learn how deep learning algorithms mimic human cognition.</p>
             </div>
 
-            <!-- Card 3: AI in Healthcare -->
             <div class="card">
                 <img src="images/ai_healthcare.jpg" alt="AI in Healthcare">
                 <h3>AI in Healthcare</h3>
@@ -66,7 +64,15 @@
         </div>
     </section>
 
-    <!-- FOOTER SECTION -->
+    <!-- Multimedia Section: Embedded YouTube video -->
+    <section class="video">
+        <h2>AI in Action</h2>
+        <p>Watch this short video showcasing the power of modern AI systems.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2ePf9rue1Ao" 
+            title="AI Future Video" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Footer Section -->
     <footer>
         <p>&copy; 2025 AI Tech Hub | Designed by Steven DeBuono</p>
     </footer>
