@@ -1,49 +1,34 @@
-AI Tech Hub — Final Project
-By Steven DeBuono
+AI Tech Hub - Final Project
+----------------------------
+Author: Steven DeBuono
+Course: CSC104
+Date: October 2025
 
---------------------------------
-PROJECT OVERVIEW:
-This project is a 3-page responsive website titled “AI Tech Hub.”
-It was built for CSC104 using HTML5 and CSS3, designed with a dark tech aesthetic.
-Each page contains unique content, links, and multimedia elements.
+Overview:
+This project is a 3-page website designed for AI enthusiasts and students. 
+It explores Artificial Intelligence topics and meets all course requirements.
 
---------------------------------
-FILE DESCRIPTIONS:
+Pages:
+1. index.html - Homepage with images, meta tags, and a YouTube embedded video.
+2. about.html - Informational page including a data table on AI industries.
+3. contact.html - Contact form and a working email hyperlink (bonezone0707@gmail.com).
 
-1. index.html
-   • Main homepage featuring a hero section with an introductory message.
-   • Includes a grid of 3 AI topic cards (Robotics, Neural Networks, Healthcare).
-   • Demonstrates proper use of semantic HTML.
+Design Features:
+- Specialty font (Poppins)
+- Consistent dark tech-themed design
+- Multimedia (YouTube embed)
+- Table and contact form
+- Appropriate meta tags for SEO
+- External stylesheet (styles.css)
 
-2. about.html
-   • Provides the mission statement and description of AI Tech Hub.
-   • Embedded YouTube demo iframe (replace “example” with your own video link).
-   • Includes a table with educational AI resource links.
+Image Files (place in /images/ folder):
+- ai_robot.jpg
+- neural_network.jpg
+- ai_healthcare.jpg
 
-3. contact.html
-   • Features a working contact form via Formspree (replace “yourFormId” with your actual ID).
-   • Contains an alternative “mailto” link for direct email.
+How to Run:
+1. Open index.html in a browser.
+2. Navigate using the top menu.
+3. Test form (non-functional without Formspree setup).
+4. Upload to GitHub Pages for online hosting.
 
-4. styles.css
-   • Centralized CSS file for consistent design across all pages.
-   • Uses responsive layout with flex and grid properties.
-   • Includes color scheme: cyan (#00bcd4) accents and dark background.
-
---------------------------------
-OUTPUTS:
-• Home page: Displays hero section and featured cards.
-• About page: Displays embedded video and resource table.
-• Contact page: Displays form and email contact.
-• Footer and navigation are consistent across all pages.
-
---------------------------------
-HOW TO DEPLOY:
-1. Upload all HTML, CSS, and images to GitHub repository.
-2. Validate each HTML page at https://validator.w3.org/
-3. Use https://htmlpreview.github.io/ to view your site live.
-4. Optionally, add screenshots or your video demo link in your GitHub README.
-
---------------------------------
-CREDITS:
-Website and design by Steven DeBuono
-University of Advancing Technology — CSC104 Final Project
